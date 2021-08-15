@@ -1,0 +1,56 @@
+*{
+    color: black;
+}
+.grid-container{
+    display: grid;
+}
+.item1{
+    grid-column-start: 1;
+    grid-column-end: 1;
+    font-size: 30px; 
+    font-family:fantasy   
+}
+.item2{
+    grid-column-start: 2;
+    grid-column-end: 2;
+    font-size: 30px;
+    font-family:fantasy
+}
+.item3{
+    grid-column-start: 3;
+    grid-column-end: 3;
+    font-size: 30px;
+    font-family:fantasy
+}
+.item4{
+    grid-column-start: 4;
+    grid-column-end: 4;
+    font-size: 30px;
+    font-family:fantasy
+}
+.item5{
+    grid-column-start: 5;
+    grid-column-end: 5;
+    font-size: 30px;
+    font-family:fantasy
+}
+
+body{
+    background-image:url("green.jpg") ;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+h1{
+    text-align: center;
+    color:black;
+    font-family:sans-serif;
+    font-size: 60px;
+    text-decoration:underline;
+}
+
+form{
+    display:inline-block;
+    text-align: left;
+    font-family: fantasy;
+
+}
