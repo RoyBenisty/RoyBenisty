@@ -1,5 +1,6 @@
 *{
     color: black;
+    border-radius: 10px;
 }
 .grid-container{
     display: grid;
@@ -39,18 +40,26 @@ body{
     background-image:url("green.jpg") ;
     background-repeat: no-repeat;
     background-size: cover;
+    
 }
 h1{
     text-align: center;
     color:black;
-    font-family:sans-serif;
+    font-family:fantasy;
     font-size: 60px;
     text-decoration:underline;
 }
+h2{
+    text-decoration:underline;
+    text-align: center;
+}
 
 form{
+    width: 300px;
+    margin:0 auto;
     display:inline-block;
     text-align: left;
     font-family: fantasy;
-
 }
+
+
