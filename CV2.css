@@ -1,0 +1,70 @@
+*{
+    color: black;
+    border-radius: 10px;
+    animation: infinite;
+}
+.grid-container{
+    display: grid;
+}
+.item1{
+    grid-column-start: 1;
+    grid-column-end: 1;
+    font-size: 30px; 
+    font-family:fantasy   
+}
+.item2{
+    grid-column-start: 2;
+    grid-column-end: 2;
+    font-size: 30px;
+    font-family:fantasy
+}
+.item3{
+    grid-column-start: 3;
+    grid-column-end: 3;
+    font-size: 30px;
+    font-family:fantasy
+}
+.item4{
+    grid-column-start: 4;
+    grid-column-end: 4;
+    font-size: 30px;
+    font-family:fantasy
+}
+.item5{
+    grid-column-start: 5;
+    grid-column-end: 5;
+    font-size: 30px;
+    font-family:fantasy
+}
+
+body{
+    animation-name: background1;
+    animation-duration: 6s;
+    background-position: center;
+    background-size: cover;
+
+}
+.h1{
+    text-align: center;
+    color:black;
+    font-family:fantasy;
+    font-size: 60px;
+    text-decoration:underline;
+}
+h2{
+    text-decoration:underline;
+    text-align: center;
+}
+form{
+    display:inline-block;
+    text-align: left;
+    font-family: fantasy;
+}
+
+@keyframes background1{
+    0% {background-image: url("green.jpg");}
+    50% {background-image: url("leave.jpg");}
+    100% {background-image: url("leaves.jpg");}
+}
+
+
