@@ -1,7 +1,6 @@
 *{
     color: black;
-    border-radius: 10px;
-    animation: infinite;
+    border-radius: 10px;    
 }
 .grid-container{
     display: grid;
@@ -40,8 +39,7 @@
 body{
     animation-name: background1;
     animation-duration: 6s;
-    background-position: center;
-    background-size: cover;
+    animation: infinite;
 
 }
 .h1{
